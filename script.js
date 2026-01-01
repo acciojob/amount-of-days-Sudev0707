@@ -1,7 +1,7 @@
 //your JS code here. If required.
 
 function daysOfYear(year){
-	if (year !>== 1 && !<= 9999){
+	if (year < 1 || year > 9999){
 		return console.log('enter valid year')
 	}
 
